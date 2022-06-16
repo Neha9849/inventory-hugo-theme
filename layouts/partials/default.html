@@ -1,8 +1,8 @@
 {{ "<!-- details page -->" | safeHTML }}
 <section class="single section-sm main-section" id="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-3">
+  <div >
+    <div >
+      <div >
         <div class="sidebar">
         <a class="back-btn" href="{{ .Site.BaseURL | relLangURL }}" aria-label="back"></a>
           <ul>
@@ -16,14 +16,14 @@
           </ul>
         </div>
       </div>
-      <div class="col-lg-9">
+      <div >
         <!-- begin breadcrumb feature -->
         <div class="bg-white p-3" style="margin:auto">
           {{ partial "breadcrumb.html" . }}
         </div>
         <!-- end breadcrumb feature -->
 
-        <div class="p-lg-5 p-4 bg-white position-relative" id="content">
+        <div class="p-lg-5 p-4 bg-white content" id="content">
           <!-- begin "Edit This Page" button -->
           <div class="d-flex flex-row-reverse">
             {{ $path := "" }}
